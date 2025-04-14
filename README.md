@@ -47,9 +47,9 @@ y <- x%*%beta+epsilon1
 intsp <- c(0.5,0.5,-0.1)
 
 
-#method under truncated normal prior
+#parameter estimation for the Bayesian quantile regression model with linear inequality constraints based on the truncated normal prior
 beta_LIC_TN <- BQ_LIC_TN(x, y, p, R, b)
 
-#method under truncated Laplace prior
+#parameter estimation for the Bayesian quantile regression model with linear inequality constraints based on the truncated Laplace prior
 beta_LIC_TL <- BQ_LIC_TL(x, y, p, R, b)
 ```
